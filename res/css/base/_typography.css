@@ -1,0 +1,38 @@
+:root {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt-op-1 {opacity: 100%;}
+.txt-op-2 {opacity: 70%;}
+.txt-op-3 {opacity: 50%;}
+.txt-op-4 {opacity: 20%;}
+.txt-op-5 {opacity: 0%;}
+
+.txt-wght-1 {font-weight: 100;}
+.txt-wght-2 {font-weight: 200;}
+.txt-wght-3 {font-weight: 300;}
+.txt-wght-4 {font-weight: 400;}
+.txt-wght-5 {font-weight: 500;}
+.txt-wght-6 {font-weight: 600;}
+
+.txt-size-1 {font-size: 14px;}
+.txt-size-2 {font-size: 18px;}
+.txt-size-3 {font-size: 24px;}
+.txt-size-4 {font-size: 33px;}
+
+.txt-margin-right {margin-right: 10px;}
+.txt-margin-left {margin-left: 10px;}
+.txt-margin-bott {margin-bottom: 120px;}
+
+.txt-clr-1 {color: var(--color-m-1);}
+.txt-clr-2 {color: var(--color-m-2);}
+.txt-clr-3 {color: var(--color-a-1);}
+
+.txt-alignment-l{text-align: left;}
+.txt-alignment-c{text-align: center;}
+.txt-alignment-r{text-align: right;}
+.txt-alignment-j{text-align: justify;}

@@ -1,0 +1,80 @@
+@import 'base/_variables.css';
+
+.scroll-anchor {
+    position: absolute;
+    height: 8rem;
+}
+
+#navbar.navbar-scrolled {
+    background-color: var(--color-m-2);
+    transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: var(--color-a-1);
+}
+
+#navbar.navbar-scrolled a{
+    color: var(--color-a-1);
+}
+
+#navbar.navbar-scrolled a:hover{
+    background-color: var(--color-a-1);
+    color: var(--color-m-2);
+}
+
+.navbar{
+    background-color: var(--color-m-1);
+    padding: 0 var(--padding-screen-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;  
+    z-index: 100; 
+    transition: var(--transition);
+}
+
+.navbar-container{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-l ul li a{
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-m-2);
+    color: var(--color-a-1);
+    transition: var(--transition);
+}
+
+.navbar-l ul li a:hover{
+    background-color: var(--color-a-1);
+    color: var(--color-m-2);
+    transition: var(--transition);
+}
+
+.navbar-r ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-r ul li a{
+    transition: var(--transition);
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-m-2);
+}
+
+.navbar-r ul li a:hover{
+    transition: var(--transition);
+    background-color: var(--color-m-2);
+    color: var(--color-a-1);
+}
+

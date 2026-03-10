@@ -1,0 +1,40 @@
+:root {
+  --color-m-1: #737373;
+  --color-m-2: #D9D9D9;
+  --color-a-1: #C84E28;
+  --color-white: #fff;
+/*===================================*/
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+/*===================================*/
+  --padding-screen-sm: 6rem; /* 90px */
+  --padding-screen-md: 12rem; /* 180px */
+  --padding-screen-lg: 18rem; /* 270px */
+/*===================================*/--border-radius: 0.5rem;
+/*===================================*/
+  --border-radius-round: 50%;
+  --box-shadow: 0px 10px 10px rgba(0,0,0,0.25);
+  --transition: 150ms;
+/*===================================*/
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+/*===================================*/
+  --txt-sm: 14px;
+  --txt-md: 18px;
+  --txt-lg: 24px;
+  --txt-xl: 33px;
+/*===================================*/
+  --card-width-sm: 100px;
+  --card-width-md: 200px;
+  --card-width-lg: 300px;
+  --card-width-xl: 400px;
+/*===================================*/
+  --card-height-sm: 200px;
+  --card-height-md: 350px;
+  --card-height-lg: 450px;
+  --card-height-xl: 550px;
+}
