@@ -1,0 +1,21 @@
+.cards-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-wrapper {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card-wrapper {
+    height: 70%;
+    width: 10vw;
+    background-color: aqua;
+}

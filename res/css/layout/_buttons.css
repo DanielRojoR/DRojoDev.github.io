@@ -10,6 +10,7 @@
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.33); 
+  transition: var(--transition);
 }
 
 .btn:hover {
@@ -18,31 +19,16 @@
 }
 
 .alt {
+  background-color: var(--color-a-1);
+  color: var(--color-m-2);
+}
+
+.alt:hover {
   background-color: var(--color-m-1);
   color: var(--color-m-2);
 }
 
-.btn-size-sm {
-  width: 100px;
-  height: 30px;
-  max-width: 100px;
-  max-height: 30px;
-}
-.btn-size-md {
-  width: 200px;
-  height: 70px;
-  max-width: 200px;
-  max-height: 70px;
-}
-.btn-size-lg {
-  width: 250px;
-  height: 85px;
-  max-width: 250px;
-  max-height: 85px;
-}
-.btn-size-xl {
-  width: 300px;
-  height: 100px;
-  max-width: 300px;
-  max-height: 100px;
-}
+.btn-size-sm {  width: 100px; height: 30px; max-width: 100px; max-height: 30px;}
+.btn-size-md {  width: 200px; height: 70px; max-width: 200px; max-height: 70px;}
+.btn-size-lg {  width: 250px; height: 85px; max-width: 250px; max-height: 85px;}
+.btn-size-xl {  width: 300px; height: 100px;  max-width: 300px; max-height: 100px;}
